@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title World's Best Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul.displayFlex
+          div#logo.displayFlex
+            img(src="/static/img/logo.png", alt="Logo Missing")
+            | my text
+          li 
+            a(href='/') Home
+          li 
+            a(href='/') About
+          li 
+            a(href='/') Services
+          li 
+            a(href='/') Class Info
+          li 
+            a(href='/contact') Contact Us
+    block content
+    footer#footer.displayFlex
+        | &copy 2020 All Copyrights reserved, Best Dance Academy 

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+h1{
+    text-align: center;
+}
+
+.container{
+    min-height: 80vh;
+    margin: 20px 0;
+}
+
+.container h1{
+    font-size: 34px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 40%;
+    padding: 8px;
+    margin: 6px;
+    font-size: 16px;
+    border: 2px solid #bc8585;
+    border-radius: 16px;
+    outline: none;
+}
+
+.btn{
+    padding: 4px 22px;
+    margin: 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: #bb0e0e;
+    cursor: pointer;
+    outline: none;
+}

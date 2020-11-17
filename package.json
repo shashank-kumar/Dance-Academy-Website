@@ -1,0 +1,22 @@
+{
+  "name": "dance-academy",
+  "version": "1.0.0",
+  "description": "This is a website for popular dance academy.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dance-academy",
+    "best-dance-academy"
+  ],
+  "author": "Shashank Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4"
+  }
+}
